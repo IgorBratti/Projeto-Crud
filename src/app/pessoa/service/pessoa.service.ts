@@ -8,7 +8,7 @@ import { Pessoa } from '../model/pessoa-model';
 })
 export class PessoaService {
 
-  private readonly baseUrl = 'http://localhost:3000/pessoas'
+  private readonly baseUrl = 'https://test-api-ad8n.onrender.com/pessoas'
 
   constructor(
     private http: HttpClient
